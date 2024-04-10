@@ -1,0 +1,42 @@
+{
+	"name": "whatsapp-clone",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"test": "jest",
+		"prepare": "husky install"
+	},
+	"dependencies": {
+		"@prisma/client": "5.11.0",
+		"@testing-library/react": "^14.2.2",
+		"axios": "^1.6.8",
+		"emoji-picker-react": "^4.9.2",
+		"firebase": "^10.9.0",
+		"jest": "^29.7.0",
+		"next": "14.1.4",
+		"next-auth": "^4.24.7",
+		"react": "^18",
+		"react-dom": "^18",
+		"react-icons": "^5.0.1",
+		"sass": "^1.72.0",
+		"socket.io-client": "^4.7.5",
+		"swr": "^2.2.5",
+		"zego-express-engine-webrtc": "^3.3.0",
+		"zustand": "^4.5.2"
+	},
+	"devDependencies": {
+		"@types/jest": "^29.5.12",
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"eslint": "^8",
+		"eslint-config-next": "14.1.4",
+		"prisma": "^5.11.0",
+		"typescript": "^5",
+		"husky": "^8.0.0"
+	}
+}
