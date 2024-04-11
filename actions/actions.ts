@@ -1,7 +1,6 @@
 'use server';
 import { User } from '@/typings/User';
 import { prismaInstance } from '@/utils/prismaClient';
-import { PrismaClient } from '@prisma/client';
 
 const prisma = prismaInstance();
 
